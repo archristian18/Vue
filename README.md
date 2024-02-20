@@ -136,6 +136,14 @@ docker exec -it {PROJECT_NAME}_php sh
 ## Composer
 
 To install additional composer packages, run the following command:
+npm install
+npm i vue-axios
+npm install vuetify
+npm install vue-i18n
+npm install --save vue3-toastify
+npm install dotenv-webpack --save-dev
+npm install webpack --save-dev
+npm i bootstrap
 
 ```
 docker exec -it {PROJECT_NAME}_php sh
