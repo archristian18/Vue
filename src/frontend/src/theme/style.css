@@ -1,0 +1,22 @@
+.header {
+    color: #010384;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .container {
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    margin-top: 100px;
+    padding: 50px;
+    border: 0px solid #4e4e4e; /* Add a border */
+    border-radius: 5px; /* Rounded border corners */
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  }
+  .button {
+    background-color: #010384;
+    width: 100%;
+  }
+  .v-btn__content {
+    color:white;
+  }
