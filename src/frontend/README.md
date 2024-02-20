@@ -40,10 +40,17 @@ vue add vuetify (Vuetify 3 - Vue CLI (preview))
 
 ### PACKAGES
 npm install
+
 npm i vue-axios
+
 npm install vuetify
+
 npm install vue-i18n
+
 npm install --save vue3-toastify
+
 npm install dotenv-webpack --save-dev
+
 npm install webpack --save-dev
+
 npm i bootstrap
