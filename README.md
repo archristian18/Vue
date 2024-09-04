@@ -462,3 +462,8 @@ You can view the API Documentation page at [http://APP_DOMAIN/api/docs](http://A
 ![View API Doc Screenshot](/api-doc-sample.png)
   
 There is also a `Postman` collection file generated that can be found at [http://APP_DOMAIN/api/docs/collection.json](http://APP_DOMAIN/api/docs/collection.json) that you can import in your `Postman App`.
+
+
+
+# SETUP
+127.0.0.1 vue.local api.vue.local

@@ -1,22 +1,26 @@
-import api from "../utils/api";
+import api from '../utils/api'
 
 const forgotPassword = async (email) => {
-  const req = api
-    .post("/password/forgot", { email })
-    .then(({ data }) => data.token);
-  return await req;
-};
+    const req = api
+        .post('/password/forgot', { email })
+        .then(({ data }) => data.token)
+    return await req
+}
 
 const resetPassword = async (token, password, password_confirmation) => {
-  const req = api
-    .post("password/reset", { password, password_confirmation, token })
-    .then(({ data }) => data.reset);
-  return await req;
-};
+    const req = api
+        .post('password/reset', { password, password_confirmation, token })
+        .then(({ data }) => data.reset)
+    return await req
+}
 
 const createPassword = async (token, password, password_confirmation) => {
-  const req = api.post("/activate", { token, password, password_confirmation });
-  return await req;
-};
+    const req = api.post('/activate', {
+        token,
+        password,
+        password_confirmation,
+    })
+    return await req
+}
 
-export { forgotPassword, resetPassword, createPassword };
+export { forgotPassword, resetPassword, createPassword }
